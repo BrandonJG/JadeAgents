@@ -9,7 +9,8 @@ java -cp [directory for jade.jar];classes jade.Boot -gui [agentName]:[agent pack
 
 Example
 ```
-javac -cp [directory for jade.jar eg lib/jade.jar] src/proyets/behaviours/SimpleAgent.java -d classes/
-java -cp [directory for jade.jar eg lib/jade.jar];classes jade.Boot -gui agentName:examples.behaviours.SimpleAgent
+javac -cp lib/jade.jar src/proyects/curvefitting/AgentBasedCurveFitting.java -d classes/
+
+java -cp lib/jade.jar;classes jade.Boot -gui agentName:proyects.curvefitting.AgentBasedCurveFitting
 
 ```
