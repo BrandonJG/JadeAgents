@@ -15,7 +15,7 @@ java -cp lib/jade.jar;classes jade.Boot -gui simpleAgent:examples.behaviours.Sim
 ```
 On CLI (recommended to do this on jade directory):
 
-javac -cp [directory for jade.jar] [agent source directory]/[agent].java -d classes/
+javac -cp [directory for jade.jar] [agent source directory]/[agent or *].java -d classes/
 
 java -cp [directory for jade.jar];classes jade.Boot -gui [agentName]:[agent package]
 
