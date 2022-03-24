@@ -1,0 +1,19 @@
+
+    public static double[] summations(DataSet ds, int var){
+        double[] x = new int[var];
+        double y;
+        int n = ds.getDataSetSize();
+        double[] sums = {0,0,0,0};
+        for(int i = 0; i<n; i++){
+            for(int j = 0; j<var; j++){
+                x[j] = ds.getXvalueAt(j, i);
+                //we here 
+            }
+            y = ds.getYvalueAt(i);
+            sums[0] += x; //sumX
+            sums[1] += y; //sumY
+            sums[2] += (x*y); //sumXY
+            sums[3] += Math.pow(x, 2); //sumXsquared
+        }
+        return sums;
+    }
